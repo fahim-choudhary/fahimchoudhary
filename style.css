@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+    & a{
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+header{
+    height: 60px;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    border-color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:40px;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+button{
+    color: #000;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 9px 18px;
+    border-radius: 40px;
+    border: none;
+}
+
+
+.btn{
+    color: #000;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 9px 18px;
+    border-radius: 40px;
+    background-color: #000;
+    color:white;
+    border: none;
+}
+
+
+.home{
+    background-image: url(/dd27d807e23e548791fa7466d5f25679.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+.how{
+    padding: 11px 125px;
+}
+.Find{
+    background-color: aqua;
+    color: #000;
+}
+
+.item-img{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 40%;
+    height: 50%;
+    margin-top:50px ;
+    margin-left: 30px;
+
+}
+
+.img .src{
+height: 133px;
+background-color: gold;
+}
+
+ h2{
+    text-align: center;
+    background-color: gold;
+ }
+
+
+ .img-style{
+   column-count: 3;
+   text-align: center;
+   gap: 40px;
+   background-color: #fff;
+
+   & h3{
+    margin-top: 10px;
+    margin-left: 100px;
+   }
+
+   & p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+   }
+
+ & img{
+    margin-top: 40px;
+    }
+
+    & .div-a a{
+        color: #000;
+        margin-top: 700px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+ }
+
+ .input input{
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color:#fff;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 7px 0px 0px 0px;
+ }
+
+.style-img{
+    width: 100%;
+    padding: 20px 20px;
+    column-count: 2;
+    display: flexbox;
+}
+
+.blur-img{
+   border-radius: 50px;
+    border: 1px solid black; border-width: 1px;
+    }
+
+ .Component{
+    border-radius: 50px;
+    border: 1px solid black;
+ }
+
+ p{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .type{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    padding: 9px 20px;
+    width: 160px;
+    border-radius: 50px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+ }
+
+ .peragerap{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: indigo;
+    color: #fff;
+    height: 250px;
+ }
+
+
+ .tex{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    padding: 9px 20px;
+    width: 160px;
+    border-radius: 50px;
+    border: 1px solid black;
+    text-align: center;
+    color: #fff;
+ }
+
+
+ 
+.div1{
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: contents;
+    width: 100%;
+ 
+    
+        & .div2 ul{
+        display: inline-block;
+        list-style: none;
+        padding:100px ;
+        
+        }
+    
+        ul a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+    }
+    
+    .lorem{
+        width: 100%;
+        margin-top: -90px;
+        column-count:3 ;
+        text-align: center;
+        margin-left: 230px;
+       
+    }
+
+    h5{
+        color: #fff;
+        background-color: black;
+        font-size: 20px;
+
+    }
+    .navber{
+        color: #fff;
+        background-color: black;
+    }
